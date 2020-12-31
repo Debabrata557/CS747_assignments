@@ -1,0 +1,4 @@
+For Numpy related things I referred https://numpy.org/doc/.
+For Python related things I referred https://docs.python.org/3/
+For some common coding related doubts https://stackoverflow.com/,https://stackexchange.com/
+For most of the theoretical things I referred to the lectures.

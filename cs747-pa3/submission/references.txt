@@ -1,0 +1,1 @@
+Class Lectures and the reinforcement learning book by sutton and barto

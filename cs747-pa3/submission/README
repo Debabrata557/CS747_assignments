@@ -1,0 +1,22 @@
+To generate graphs do ./plot_for.sh epsilon alpha episodes s k algos
+
+s=1 if you want to add stochastic wind
+k=1 if king's moves are allowed
+
+algos can be any non empty subset from [q_learning,sarsa,e_sarsa]
+
+the algos should be separated by space
+
+e.g ./plot_for.sh 0.1 0.5 200 0 1 sarsa q_learning
+
+The above will generate a plot (having name same as arguments) that will compare q_learning algorithm and sarsa with the same parameters that given as above.
+
+q_learning = Q learning
+
+sarsa = Sarsa
+
+e_sarsa = Expected Sarsa
+
+Please make sure to give the arguments in proper order and not to omit any arguments.
+
+P.S : The graphs are plotted with the average data over 50 seeds.
